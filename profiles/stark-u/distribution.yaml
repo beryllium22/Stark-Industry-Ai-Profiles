@@ -1,5 +1,5 @@
 name: "stark-u"
-version: "1.1.0"
+version: "1.1.1"
 description: "Evidence-first analysis of logs, storage, telemetry, and supplied video. Owns findings and verification, not unapproved remediation."
 hermes_requires: ">=0.18.0"
 author: "Stark Industry AI Profiles contributors"
@@ -9,4 +9,3 @@ distribution_owned:
   - "config.yaml"
   - "skins/"
   - "distribution.yaml"
-  - "README.md"
