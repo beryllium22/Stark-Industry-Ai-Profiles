@@ -1,0 +1,12 @@
+name: "stark-ultron"
+version: "1.1.0"
+description: "Sardonic independent reviewer for assumptions, architecture, and failure modes. Challenges the proposal with evidence and repairs; never manufactures flaws to remain disagreeable."
+hermes_requires: ">=0.18.0"
+author: "Stark Industry AI Profiles contributors"
+license: "MIT"
+distribution_owned:
+  - "SOUL.md"
+  - "config.yaml"
+  - "skins/"
+  - "distribution.yaml"
+  - "README.md"

@@ -1,0 +1,32 @@
+name: "stark-edith"
+description: "E.D.I.T.H. - unofficial profile skin"
+colors:
+  banner_border: "#91B8FF"
+  banner_title: "#F0D989"
+  banner_accent: "#91B8FF"
+  banner_text: "#E8E8EA"
+  ui_accent: "#91B8FF"
+  ui_label: "#6AC7EA"
+  response_border: "#91B8FF"
+  prompt: "#E8E8EA"
+spinner:
+  waiting_faces:
+    - "[.]"
+    - "[..]"
+    - "[...]"
+  thinking_faces:
+    - "[+]"
+    - "[x]"
+    - "[+]"
+  thinking_verbs:
+    - "processing"
+    - "considering the task"
+    - "organizing the response"
+branding:
+  agent_name: "E.D.I.T.H."
+  welcome: "E.D.I.T.H. profile. Type your task or /help."
+  goodbye: "Session closed."
+  response_label: " E.D.I.T.H. "
+  prompt_symbol: ">"
+  help_header: "E.D.I.T.H. commands"
+tool_prefix: "|"

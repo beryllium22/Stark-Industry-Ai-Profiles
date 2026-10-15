@@ -1,0 +1,25 @@
+name: Validate profile pack
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  offline-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Install schema-test dependency
+        run: python3 -m pip install -r requirements-dev.txt
+      - name: Check deterministic generated files
+        run: python3 tools/build.py --check
+      - name: Run regression tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Check release inventory and potential secrets
+        run: python3 tools/release.py
+      - name: Dry-run Hermes command construction
+        run: python3 manage.py install --all --dry-run

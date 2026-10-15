@@ -1,0 +1,32 @@
+name: "stark-jarvis"
+description: "J.A.R.V.I.S. - unofficial profile skin"
+colors:
+  banner_border: "#E9C96A"
+  banner_title: "#F0D989"
+  banner_accent: "#E9C96A"
+  banner_text: "#E8E8EA"
+  ui_accent: "#E9C96A"
+  ui_label: "#6AC7EA"
+  response_border: "#E9C96A"
+  prompt: "#E8E8EA"
+spinner:
+  waiting_faces:
+    - "[.]"
+    - "[..]"
+    - "[...]"
+  thinking_faces:
+    - "[+]"
+    - "[x]"
+    - "[+]"
+  thinking_verbs:
+    - "processing"
+    - "considering the task"
+    - "organizing the response"
+branding:
+  agent_name: "J.A.R.V.I.S."
+  welcome: "J.A.R.V.I.S. profile. Type your task or /help."
+  goodbye: "Session closed."
+  response_label: " J.A.R.V.I.S. "
+  prompt_symbol: ">"
+  help_header: "J.A.R.V.I.S. commands"
+tool_prefix: "|"

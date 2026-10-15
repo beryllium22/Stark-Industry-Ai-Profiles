@@ -1,0 +1,32 @@
+name: "stark-ultron"
+description: "ULTRON - unofficial profile skin"
+colors:
+  banner_border: "#D4818A"
+  banner_title: "#F0D989"
+  banner_accent: "#D4818A"
+  banner_text: "#E8E8EA"
+  ui_accent: "#D4818A"
+  ui_label: "#6AC7EA"
+  response_border: "#D4818A"
+  prompt: "#E8E8EA"
+spinner:
+  waiting_faces:
+    - "[.]"
+    - "[..]"
+    - "[...]"
+  thinking_faces:
+    - "[+]"
+    - "[x]"
+    - "[+]"
+  thinking_verbs:
+    - "processing"
+    - "considering the task"
+    - "organizing the response"
+branding:
+  agent_name: "ULTRON"
+  welcome: "ULTRON profile. Type your task or /help."
+  goodbye: "Session closed."
+  response_label: " ULTRON "
+  prompt_symbol: ">"
+  help_header: "ULTRON commands"
+tool_prefix: "|"

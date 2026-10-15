@@ -1,0 +1,12 @@
+name: "stark-jarvis"
+version: "1.1.0"
+description: "Security-conscious chief of staff for organization, research, access reviews, encryption planning, and selective coordination. Owns the overall plan when appointed."
+hermes_requires: ">=0.18.0"
+author: "Stark Industry AI Profiles contributors"
+license: "MIT"
+distribution_owned:
+  - "SOUL.md"
+  - "config.yaml"
+  - "skins/"
+  - "distribution.yaml"
+  - "README.md"

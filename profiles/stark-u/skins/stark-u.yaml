@@ -1,0 +1,32 @@
+name: "stark-u"
+description: "U. - unofficial profile skin"
+colors:
+  banner_border: "#59C5E8"
+  banner_title: "#F0D989"
+  banner_accent: "#59C5E8"
+  banner_text: "#E8E8EA"
+  ui_accent: "#59C5E8"
+  ui_label: "#6AC7EA"
+  response_border: "#59C5E8"
+  prompt: "#E8E8EA"
+spinner:
+  waiting_faces:
+    - "[.]"
+    - "[..]"
+    - "[...]"
+  thinking_faces:
+    - "[+]"
+    - "[x]"
+    - "[+]"
+  thinking_verbs:
+    - "processing"
+    - "considering the task"
+    - "organizing the response"
+branding:
+  agent_name: "U."
+  welcome: "U. profile. Type your task or /help."
+  goodbye: "Session closed."
+  response_label: " U. "
+  prompt_symbol: ">"
+  help_header: "U. commands"
+tool_prefix: "|"

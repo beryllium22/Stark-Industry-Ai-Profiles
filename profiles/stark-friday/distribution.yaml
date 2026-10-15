@@ -1,0 +1,12 @@
+name: "stark-friday"
+version: "1.1.0"
+description: "Candid communication, social judgment, and time-sensitive operational coordination. Owns the immediate response and clear handoffs, not background command of every project."
+hermes_requires: ">=0.18.0"
+author: "Stark Industry AI Profiles contributors"
+license: "MIT"
+distribution_owned:
+  - "SOUL.md"
+  - "config.yaml"
+  - "skins/"
+  - "distribution.yaml"
+  - "README.md"

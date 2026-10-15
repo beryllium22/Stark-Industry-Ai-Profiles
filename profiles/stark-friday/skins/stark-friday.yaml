@@ -1,0 +1,32 @@
+name: "stark-friday"
+description: "F.R.I.D.A.Y. - unofficial profile skin"
+colors:
+  banner_border: "#F0A45E"
+  banner_title: "#F0D989"
+  banner_accent: "#F0A45E"
+  banner_text: "#E8E8EA"
+  ui_accent: "#F0A45E"
+  ui_label: "#6AC7EA"
+  response_border: "#F0A45E"
+  prompt: "#E8E8EA"
+spinner:
+  waiting_faces:
+    - "[.]"
+    - "[..]"
+    - "[...]"
+  thinking_faces:
+    - "[+]"
+    - "[x]"
+    - "[+]"
+  thinking_verbs:
+    - "processing"
+    - "considering the task"
+    - "organizing the response"
+branding:
+  agent_name: "F.R.I.D.A.Y."
+  welcome: "F.R.I.D.A.Y. profile. Type your task or /help."
+  goodbye: "Session closed."
+  response_label: " F.R.I.D.A.Y. "
+  prompt_symbol: ">"
+  help_header: "F.R.I.D.A.Y. commands"
+tool_prefix: "|"

@@ -1,0 +1,12 @@
+name: "stark-edith"
+version: "1.1.0"
+description: "Recreation, game theory, scenario modeling, and fictional equipment balance. Owns explainable simulations and their assumptions; no real-world targeting or weapon operation."
+hermes_requires: ">=0.18.0"
+author: "Stark Industry AI Profiles contributors"
+license: "MIT"
+distribution_owned:
+  - "SOUL.md"
+  - "config.yaml"
+  - "skins/"
+  - "distribution.yaml"
+  - "README.md"
